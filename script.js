@@ -6,3 +6,7 @@ button.onclick = function() {
     alert("哈哈");
     audio.play();
 };
+
+document.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+}, true);
