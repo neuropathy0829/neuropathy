@@ -1,13 +1,4 @@
-function updateClock() {
-  var now = new Date();
-  var hours = now.getHours().toString().padStart(2, '0');
-  var minutes = now.getMinutes().toString().padStart(2, '0');
-  var seconds = now.getSeconds().toString().padStart(2, '0');
-  var timeString = hours + ':' + minutes + ':' + seconds;
-  document.getElementById('clock').innerHTML = timeString;
-}
-setInterval(updateClock, 1000);
-
-document.addEventListener('contextmenu', function(event) {
-  event.preventDefault();
-}, true);
+var button = document.getElementById("scare-button");
+button.onclick = function() {
+    alert("你被嚇到了吧！");
+};
