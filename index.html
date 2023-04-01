@@ -6,19 +6,12 @@
   <title> </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono">
   <style>
-    body {
+    body{
       background-color: black;
     }
-
-    #button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    #scare-button {
+    #scare-button{
       display: block;
+      margin: 0 auto;
       text-align: center;
       background-color: black;
       color: green;
@@ -30,21 +23,15 @@
     }
   </style>
 </head>
-
 <body>
-  <div id="button-container">
-    <button id="scare-button">BUTTON</button>
-  </div>
+  <button id="scare-button">BUTTON</button>
   <script>
     var scareButton = document.getElementById("scare-button");
-    scareButton.onclick = function () {
-      window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    scareButton.onclick = function() {
+      setTimeout(function() {
+        window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+      }, 5000); // 3秒後轉址
     };
-
-    document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-}, true);
   </script>
 </body>
-
 </html>
