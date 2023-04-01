@@ -9,9 +9,14 @@
     body{
       background-color: black;
     }
+    #button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
     #scare-button{
       display: block;
-      margin: 0 auto;
       text-align: center;
       background-color: black;
       color: green;
@@ -24,13 +29,13 @@
   </style>
 </head>
 <body>
-  <button id="scare-button">BUTTON</button>
+  <div id="button-container">
+    <button id="scare-button">BUTTON</button>
+  </div>
   <script>
     var scareButton = document.getElementById("scare-button");
     scareButton.onclick = function() {
-      setTimeout(function() {
-        window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-      }, 5000); // 3秒後轉址
+      window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     };
   </script>
 </body>
