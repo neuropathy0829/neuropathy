@@ -2930,7 +2930,7 @@
 
 			#footer {
 				background-attachment: scroll;
-				background-color:rgb(247,247,247);
+				background-color:rgb(240,240,240);
 				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
