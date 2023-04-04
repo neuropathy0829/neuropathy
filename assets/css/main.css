@@ -2929,7 +2929,7 @@
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: scroll;	
 				background-color:rgb(200,200,200);
 				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
@@ -2937,7 +2937,7 @@
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
-				padding: 4em 4em 6em 4em;
+				padding: 2em 4em;
 				position: relative;
 				text-align: center;
 				width: 100%;
