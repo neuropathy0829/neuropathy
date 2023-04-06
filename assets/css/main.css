@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+* {
+    font-family: 'Share Tech Mono', monospace, 'Noto Sans TC', sans-serif, 'Noto Sans SC', sans-serif !important;
+}
 
 /*
 	Strata by HTML5 UP
@@ -16,9 +22,9 @@
 	font-style: normal;
   }
   
-* {
+/* * {
 	font-family: '行書', sans-serif !important;
-  }
+  } */
   /*  {
     font-family: 'Share Tech Mono', monospace, 'Noto Sans TC', sans-serif, 'Noto Sans SC', sans-serif !important;
 } */
