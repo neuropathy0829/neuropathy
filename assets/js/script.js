@@ -1,9 +1,9 @@
 //禁用右鍵
-document.addEventListener('contextmenu',function(event){
-    event.preventDefault();
- },true);
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+}, true);
 //禁用F12、Ctrl+Shift+I、Ctrl+Shift+J、Ctrl+U
-document.onkeydown = function(e) {
+document.onkeydown = function (e) {
   if (event.keyCode == 123) {
     return false;
   }
